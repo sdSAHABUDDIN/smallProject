@@ -61,3 +61,32 @@ body{
   border-radius: 5px;
   box-shadow: 0 15px  30px rgba(0,0,0,0.3);
 }
+.task{
+  margin-top:10px ;
+  height: 50px;
+  background-color: white;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task span{
+  cursor: pointer;
+}
+.task button{
+  float: right;
+  width: 70px;
+  height: 100%;
+  background-color:#8052ec ;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+.completed{
+  text-decoration-line: line-through;
+
+}
